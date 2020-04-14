@@ -1,0 +1,33 @@
+{
+  "name": "matmar10-json-resume",
+  "version": "0.1.0",
+  "description": "Bare bones resume using JSON schema",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "js-yaml": "^3.13.1",
+    "resume-cli": "^1.2.7",
+    "yaml-to-json": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matmar10/matmar10-json-schema.git"
+  },
+  "keywords": [
+    "resume",
+    "Matthew",
+    "J.",
+    "Martin",
+    "engineer"
+  ],
+  "author": "Matthew J. Martin <matthew.mar10@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/matmar10/matmar10-json-schema/issues"
+  },
+  "homepage": "https://github.com/matmar10/matmar10-json-schema#readme"
+}
