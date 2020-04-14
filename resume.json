@@ -1,0 +1,408 @@
+{
+  "basics": {
+    "name": "Matthew J. Martin",
+    "label": "Full Stack Engineering + Product & UX",
+    "picture": "https://www.dropbox.com/s/j5pjm9h2aotyohm/matthew-martin_bw-headshot.jpg?dl=1",
+    "email": "matthew.mar10@gmail.com",
+    "phone": "+1 415 601 4879",
+    "website": "https://matmar10.com",
+    "summary": "15 years software industry experience spanning fintech, foodtech, & consumer electronics including product & engineering management as well as UX/UI design.\n",
+    "location": {
+      "city": "Jatinegara",
+      "countryCode": "ID",
+      "region": "Jakarta"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "matthewjosephmartin",
+        "url": "https://linkedin.com/in/matthewjosephmartin"
+      },
+      {
+        "network": "Twitter",
+        "username": "ohbytheway",
+        "url": "http://twitter.com/ohbytheway"
+      },
+      {
+        "network": "Github",
+        "username": "matmar10",
+        "url": "https://github.com/matmar10"
+      },
+      {
+        "network": "Instagram",
+        "username": "matmar10",
+        "url": "https://instagram.com/matmar10/"
+      },
+      {
+        "network": "Facebook",
+        "username": "matmar10",
+        "url": "https://www.facebook.com/matmar10"
+      },
+      {
+        "network": "Medium",
+        "username": "ohbytheway",
+        "url": "https://medium.com/@ohbytheway"
+      },
+      {
+        "network": "AngelList",
+        "username": "matmar10",
+        "url": "https://angel.co/matmar10"
+      },
+      {
+        "network": "Google Plus",
+        "username": "MatthewMartinJoseph",
+        "url": "https://plus.google.com/u/0/+MatthewMartinJoseph/about"
+      },
+      {
+        "network": "YouTube",
+        "username": "matthewmar10",
+        "url": "https://www.youtube.com/user/matthewmar10"
+      },
+      {
+        "network": "SlideShare",
+        "username": "MatthewJosephMartin",
+        "url": "https://www.slideshare.net/MatthewJosephMartin"
+      },
+      {
+        "network": "Yelp",
+        "username": "matmar10",
+        "url": "http://matmar10.yelp.com/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Blossom Labs, Inc.",
+      "position": "Founder/CEO",
+      "website": "https://blossomfinance.com",
+      "startDate": "2014-10-15",
+      "summary": "Digital platform for issuing Sukuk financing for social impact & ethical projects",
+      "highlights": [
+        "Built digital capital markets platform running on Ethereum blockchain with extensive caching layer to enhance user experience",
+        "Delivered scalable and modular services layer using microservices with dependency-injection framework deployable into PaaS environment (Heroku) and using Docker",
+        "Created white-label platform for banks including skin-able Bootstrap theme using Angular (ngx)",
+        "Hands-on architect & lead engineer of tech stack using Node.js, Ngx, Angular.js, Postgres, Mongo, RabbitMQ, LESS, CSS, Linux"
+      ]
+    },
+    {
+      "company": "Taro, Inc.",
+      "position": "Director of Engineering",
+      "website": "https://tarobites.com",
+      "startDate": "2015-08-01",
+      "endDate": "2017-04-30",
+      "summary": "Marketplace of diverse foods that are rarely found in local restaurants.",
+      "highlights": [
+        "Employee number 1 responsible for taking proof-of-concept to production stable app",
+        "Delivered against rapid product timeline while still introducing necessary process & tooling",
+        "Designed new UI for driver routing console and driver apps that dramatically reduced ops overhead & delivery mishaps",
+        "Stack includes Node.js, Angular.js, React.js, Mongo, RabbitMQ, LESS, CSS, Linux",
+        "Infra includes Heroku, Firebase, Cloudinary, Algolia"
+      ]
+    },
+    {
+      "company": "Monitise Americas, Inc.",
+      "position": "Sr. Software Engineer",
+      "website": "http://monitise.com",
+      "startDate": "2013-04-01",
+      "endDate": "2014-06-01",
+      "summary": "White-label digital banking mobile and tablet solutions",
+      "highlights": [
+        "Delivered improved architecture that improved on-device performance & reduced time to ship new using Angular.js, Node.js, Grunt, Bower, LESS",
+        "Supports white label with matrix of features & various auth. mechanisms",
+        "Enhanced developer productivity by authoring several npm/Bower plugins & Yeoman generators; set up continuous integration"
+      ]
+    },
+    {
+      "company": "Boku, Inc.",
+      "position": "Sr. Frontend Engineer, Product Manager",
+      "website": "http://boku.com",
+      "startDate": "2010-09-01",
+      "endDate": "2013-04-01",
+      "summary": "Mobile payment network via carrier billing",
+      "highlights": [
+        "Delivered UI components with complex, multi-matrix business requirements in high volume production environment",
+        "Rapid prototyping helped win key contracts with the likes of Disney, MasterCard",
+        "Introduced & advanced test-driven development methodology for front-end stack",
+        "Trained and mentored other developers on front-end best practices"
+      ]
+    },
+    {
+      "company": "Xoom, Inc.",
+      "position": "Web Developer",
+      "website": "http://xoom.com",
+      "startDate": "2010-01-01",
+      "endDate": "2010-09-01",
+      "summary": "International money remittance helping families in the US send money back home overseas",
+      "highlights": [
+        "Championed the company's first ever user research study",
+        "Internal advocate for improved mobile experience",
+        "Reduced remittance flow with addition of AJAX to replace full-page reload"
+      ]
+    },
+    {
+      "company": "Logitech, Inc.",
+      "position": "Software Applications Engineer",
+      "website": "http://logitech.com",
+      "startDate": "2007-07-01",
+      "endDate": "2010-01-01",
+      "summary": "Network music player \"squeezebox\" streams all the music you love to any room in your home",
+      "highlights": [
+        "Improved e-commerce conversion 200X with A/B test of unique avatar site guide",
+        "Improved user experience with unified CMS to allow management of on-device and web app content from single solution",
+        "Overhauled user experience of web-based device management portal mysqueezebox.com",
+        "Reduced ops overhead by deploying improved ecommerce platform with improved logistics integration"
+      ]
+    },
+    {
+      "company": "Benchmark Media Systems, Inc.",
+      "position": "Software Engineer",
+      "website": "http://benchmarkmedia.com",
+      "startDate": "2004-12-01",
+      "endDate": "2007-07-01",
+      "summary": "High-end professional audio and audiophile electronics",
+      "highlights": [
+        "Helped increase inventory turns 4X with inventory management software",
+        "Decreased production build time by 400% with network-connected handheld barcode scanner MRP app",
+        "Improved visibility on key metrics with reporting tools"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Spark Program",
+      "position": "Volunteer Mentor",
+      "website": "http://www.sparkprogram.org/",
+      "startDate": "2013-03-01",
+      "endDate": "2014-11-15",
+      "summary": "Spark is a national nonprofit that provides life-changing apprenticeships to youth from disadvantaged communities. Spark one-on-one workplace apprenticeships empower young people to succeed in their education and beyond. Spark’s one-on-one workplace apprenticeships empower young people to succeed in their education and beyond.\n"
+    },
+    {
+      "organization": "CareerDean",
+      "position": "Career Mentor",
+      "website": "http://www.careerdean.com",
+      "startDate": "2014-10-01",
+      "endDate": "2015-11-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "George Mason University",
+      "area": "Essentials of Economics",
+      "studyType": "Certificate of Completion",
+      "startDate": "2013-01-08",
+      "endDate": "2013-03-18"
+    },
+    {
+      "institution": "ITT Technical Institute",
+      "area": "Software Applications Programming",
+      "studyType": "Associate of Occupational Specialty",
+      "endDate": "2005-10-24",
+      "startDate": "2003-10-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Product & Software Engineering Management",
+      "level": "Advanced",
+      "keywords": [
+        "lean startup",
+        "agile",
+        "kanban",
+        "SCRUM",
+        "SDLC",
+        "project management"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Advanced",
+      "keywords": [
+        "Node",
+        "PHP",
+        "REST APIs",
+        "web services",
+        "SOA",
+        "micro services",
+        "modular design"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "Javascript",
+        "Angular",
+        "Bootstrap",
+        "HTML5",
+        "CSS",
+        "LESS",
+        "SASS"
+      ]
+    },
+    {
+      "name": "UX/UI Design",
+      "level": "Intermediate",
+      "keywords": [
+        "wireframe",
+        "prototype",
+        "user research",
+        "UX",
+        "UI",
+        "IA"
+      ]
+    },
+    {
+      "name": "Legal",
+      "level": "Intermediate",
+      "keywords": [
+        "contract writing",
+        "contract review",
+        "business review",
+        "MOU",
+        "SOW"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Intermediate",
+      "keywords": [
+        "MySQL",
+        "Postgres",
+        "Mongo",
+        "Redis",
+        "Elastic Search"
+      ]
+    },
+    {
+      "name": "Dev Ops",
+      "level": "Intermediate",
+      "keywords": [
+        "Firebase",
+        "Heroku",
+        "Algolia",
+        "AWS",
+        "Ansible",
+        "Haproxy",
+        "Nginx",
+        "Apache"
+      ]
+    },
+    {
+      "name": "Programming General",
+      "level": "Basic",
+      "keywords": [
+        "Java",
+        "Python",
+        "Perl"
+      ]
+    },
+    {
+      "name": "Business Development",
+      "level": "Basic",
+      "keywords": [
+        "relationship management",
+        "contract due diligence"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Indonesian",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Farsi",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Basic"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Basic"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic"
+    },
+    {
+      "language": "Danish",
+      "fluency": "Basic"
+    },
+    {
+      "language": "Turkish",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "socially responsible finance",
+      "keywords": [
+        "financial tech",
+        "financial inclusion"
+      ]
+    },
+    {
+      "name": "Islamic finance",
+      "keywords": [
+        "shariah",
+        "halal economy"
+      ]
+    },
+    {
+      "name": "blockchain",
+      "keywords": [
+        "bitcoin",
+        "cryptocurrency",
+        "ethereum",
+        "smart contracts"
+      ]
+    },
+    {
+      "name": "poverty alleviation",
+      "keywords": [
+        "social uplift",
+        "entrepreneurship"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Krishna Mehra, Co-Founder & CEO at Taro, Inc.",
+      "reference": "Matthew is a rockstar with many different talents - when he says he can do engineering, product and UX, he is right on target! We were lucky to have Matthew guide Taro engineering while we took an MVP and built it into a real product. Matthew is great at getting things done, but he is also great at setting up processes, ensure quality and compliance as well as building the team out. As a startup, what we really appreciated was that he made himself available at any time of the day or night to fix issues and resolve any problems and took responsibility of the entire infrastructure. I would hire Matthew again in a heartbeat.\n"
+    },
+    {
+      "name": "Katie Holden, Product Manager at Boku, Inc.",
+      "reference": "Matthew is a rarity among front-end developers. He a unique blend of hard-working, very skilled technically, and also has a sound design sense. He is particularly strong with leading-edge code practice and new UX principles and theory. This makes him an ideal candidate for companies with ambitious plans who iterate quickly on concepts. I think my favorite part about Matthew is his attitude. He is always quick to find ways to make the best design possible, even if it means substantial technical work or learning something new. I have often heard PM's and designers say he is \"delightful\" to work with. I echo those sentiments. His leadership and talents will be a great addition to any team.\n"
+    },
+    {
+      "name": "Jimmie Fulton, Principle Software Engineer at Boku, Inc.",
+      "reference": "Matthew is a talented front-end engineer. While technical, he's also very much customer focused. He's a strong proponent of clean, tested code at all tiers. In these exciting times in front-end engineering, Matthew is always on top of the latest and greatest technologies. You know... the kinds that improve product quality, increase developer productivity, and speed up delivery. On top of all this, Matthew has a positive and optimistic attitude, an entrepreneurial sprit, and is just a great guy to work with.\n"
+    },
+    {
+      "name": "Frederic Billou, Director of Product at Xoom, Inc.",
+      "reference": "I hired Matthew while at Xoom and would hire him again in a heartbeat: he is solid technically, is both able to \"up level\" and communicate clearly with executives and build a solid report with highly back-end engineers to get the details of an implementation finalized. He is also very much eager to share his findings and evangelize the \"right way\" to get things done across an organization, while keeping in mind project timelines and overall business goals. Last but not least, Matthew has a great sense of humor and is fun to work with. Anyone would be lucky to have Matthew in their organization!\n"
+    },
+    {
+      "name": "Anne Stern, QA Manager at Xoom, Inc.",
+      "reference": "Matthew not only gets things done, but will think about how they can be done better. One of the pleasures of working with Matthew is that he has an contagious enthusiasm for improving the product, the team, and the process. And he'll make sure everyone is on-board and excited about it too. Matthew is effective and a pleasure to work with.\n"
+    },
+    {
+      "name": "Brian Dils, Sr. UX Designer at Logitech, Inc.",
+      "reference": "Matthew's understanding of user-centered design, usability, user research, and product management make him a great person to work with. He is strong-willed and will fight hard for a solution that best serves the user. If a UI Designer is a champion for the user, then Matthew is a champion for designers. It was invaluable to have someone on the development side who can see the whole picture. I would highly recommend Matthew for leadership positions in the future.\n"
+    },
+    {
+      "name": "Matthew Parry, Sales Manager at Logitech, Inc.",
+      "reference": "Matthew is one of the most enthusiastic and capable people I have ever met. He created and supported many of the tools that allowed me to do my job. His tremendous amount of technical knowledge along with his ability to effectively create unique solutions and communicate along many different groups makes him a huge asset to any team.\n"
+    }
+  ]
+}

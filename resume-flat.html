@@ -1,0 +1,981 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Matthew J. Martin</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+	<style type="text/css">
+		@import url(https://fonts.googleapis.com/css?family=Lato:400,700
+);
+
+		body {
+			background: #fff;
+			font-family: Lato, sans-serif;
+			margin: 0 0 80px;
+		}
+
+		a {
+			color: #2ecc71;
+		}
+
+		a:focus,
+		a:hover {
+			color: #f1c40f;
+			text-decoration: none;
+		}
+
+		p {
+			line-height: 1.5;
+			margin: 0;
+		}
+
+		p+p {
+			margin-top: 10px;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4 {
+			margin-top: 0
+		}
+
+		section {
+			margin-top: 30px;
+		}
+
+		li {
+			line-height: 1.8;
+			list-style: none;
+		}
+
+		li:before {
+			content: "\f052";
+			float: left;
+			font: 13px Octicons;
+			margin-top: 6px;
+			margin-left: -20px;
+			opacity: .1;
+			position: absolute;
+		}
+
+		blockquote {
+			border-left: 5px solid #e7e9ec;
+			font-size: 14px;
+		}
+
+		em {
+			color: #95a5a6;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		h4 span:first-child {
+			color: #000;
+			font-weight: bold;
+		}
+
+		.container {
+			max-width: 750px;
+			padding: 0 30px;
+		}
+
+		.col-sm-6 {
+			margin-bottom: 10px;
+		}
+
+		.col-sm-12 h4 {
+			margin-top: 12px;
+		}
+
+		.col-sm-12+.col-sm-12 {
+			margin-top: 30px;
+		}
+
+		#header {
+			background: #f4f6f6;
+			padding: 50px 0;
+			margin-bottom: 30px;
+		}
+
+		#header h2 {
+			color: #95a5a6;
+			font-size: 24px;
+		}
+
+		#content h3 {
+			color: #f1c40f;
+			font-size: 26px;
+			margin-top: -4px;
+		}
+
+		#content aside {
+			text-align: right;
+			padding-right: 30px;
+		}
+
+		#profiles .network {
+			text-transform: capitalize;
+		}
+
+		#work .position,
+		#volunteer .position {
+			font-weight: bold;
+			margin-bottom: 8px;
+		}
+
+		#education .area {
+			font-weight: bold;
+		}
+
+		#education .area:before {
+			content: "\f0d7";
+			font: 16px Octicons;
+			margin-right: 6px;
+		}
+
+		#education .studyType {
+			margin-left: 25px;
+		}
+
+		#awards .summary,
+		#publications .summary {
+			margin-top: 8px;
+		}
+
+		#publications .website a:before {
+			content: attr(href);
+		}
+
+		@media (min-width: 480px) {
+			.strike-through {
+				border-top: 1px solid #f4f6f6;
+				height: 20px;
+				margin-top: 12px;
+				margin-bottom: -2px;
+				position: relative;
+			}
+
+			.strike-through span,
+			.strike-through a {
+				background: #fff;
+				position: absolute;
+			}
+
+			.strike-through span:first-child {
+				padding-right: 20px;
+				margin-top: -12px;
+			}
+
+			.strike-through span+span {
+				font-size: 14px;
+				margin-top: -10px;
+				padding-left: 20px;
+				right: 0;
+			}
+		}
+
+		@media (max-width: 768px) {
+			.col-sm-6:last-child {
+				margin-bottom: 0px;
+			}
+
+			#content aside {
+				margin-bottom: 20px;
+				padding-right: 0;
+				text-align: left;
+			}
+
+			#publications .website a:before {
+				content: "View publication";
+			}
+		}
+
+		@media (max-width: 480px) {
+			h1 {
+				font-size: 26px;
+			}
+
+			.date {
+				font-size: 14px;
+				margin-bottom: 5px;
+			}
+
+			.strike-through span:first-child {
+				margin-bottom: 7px;
+			}
+
+			.strike-through span {
+				display: block;
+			}
+
+			#header {
+				margin-bottom: 10px;
+				padding: 40px 0;
+			}
+
+			#actions {
+				display: none;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<img class="img-circle img-responsive" src="https://www.dropbox.com/s/j5pjm9h2aotyohm/matthew-martin_bw-headshot.jpg?dl=1"/>
+				</div>
+				<div class="col-sm-9">
+					<h1>
+						Matthew J. Martin
+					</h1>
+					<h2>
+						Full Stack Engineer with Product &amp; UX Skills<br/>
+						<small>
+							15 years software industry experience spanning fintech, foodtech, &amp; consumer electronics
+							including product &amp; engineering management roles.
+						</small>
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+		<section id="contact" class="row">
+			<aside class="col-sm-3">
+				<h3>Contact</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<strong>Email</strong>
+						<div class="email">matthew.mar10@gmail.com</div>
+					</div>
+					<div class="col-sm-6">
+						<strong>Phone</strong>
+						<div class="phone">+1 415 601 4879</div>
+					</div>
+					<div class="col-sm-6">
+						<strong>Website</strong>
+						<div class="website">
+							<a href="https://matmar10.com">https://matmar10.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="work" class="row">
+			<aside class="col-sm-3">
+				<h3>Work</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Blossom Labs, Inc.</span>
+							<span class="date">
+								2014-10-15 — Present
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="https://blossomfinance.com">https://blossomfinance.com</a>
+						</div>
+						<div class="position">
+							Founder/CEO
+						</div>
+						<div class="summary">
+							<p>Digital platform for issuing Sukuk financing for social impact &amp; ethical projects</p>
+						</div>
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li class="bullet">Built digital capital markets platform running on Ethereum blockchain with extensive caching layer to enhance user experience</li>
+							<li class="bullet">Delivered scalable and modular services layer using microservices with dependency-injection framework deployable into PaaS environment (Heroku) and using Docker</li>
+							<li class="bullet">Created white-label platform for banks including skin-able Bootstrap theme using Angular (ngx)</li>
+							<li class="bullet">Hands-on architect &amp; lead engineer of tech stack using Node.js, Ngx, Angular.js, Postgres, Mongo, RabbitMQ, LESS, CSS, Linux</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Taro, Inc.</span>
+							<span class="date">
+								2015-08-01 — 2017-04-30
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="https://tarobites.com">https://tarobites.com</a>
+						</div>
+						<div class="position">
+							Director of Engineering
+						</div>
+						<div class="summary">
+							<p>Marketplace of diverse foods that are rarely found in local restaurants.</p>
+						</div>
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li class="bullet">Employee number 1 responsible for taking proof-of-concept to production stable app</li>
+							<li class="bullet">Delivered against rapid product timeline while still introducing necessary process &amp; tooling</li>
+							<li class="bullet">Designed new UI for driver routing console and driver apps that dramatically reduced ops overhead &amp; delivery mishaps</li>
+							<li class="bullet">Stack includes Node.js, Angular.js, React.js, Mongo, RabbitMQ, LESS, CSS, Linux</li>
+							<li class="bullet">Infra includes Heroku, Firebase, Cloudinary, Algolia</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Monitise Americas, Inc.</span>
+							<span class="date">
+								2013-04-01 — 2014-06-01
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="http://monitise.com">http://monitise.com</a>
+						</div>
+						<div class="position">
+							Sr. Software Engineer
+						</div>
+						<div class="summary">
+							<p>White-label digital banking mobile and tablet solutions</p>
+						</div>
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li class="bullet">Delivered improved architecture that improved on-device performance &amp; reduced time to ship new using Angular.js, Node.js, Grunt, Bower, LESS</li>
+							<li class="bullet">Supports white label with matrix of features &amp; various auth. mechanisms</li>
+							<li class="bullet">Enhanced developer productivity by authoring several npm/Bower plugins &amp; Yeoman generators; set up continuous integration</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Boku, Inc.</span>
+							<span class="date">
+								2010-09-01 — 2013-04-01
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="http://boku.com">http://boku.com</a>
+						</div>
+						<div class="position">
+							Sr. Frontend Engineer, Product Manager
+						</div>
+						<div class="summary">
+							<p>Mobile payment network via carrier billing</p>
+						</div>
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li class="bullet">Delivered UI components with complex, multi-matrix business requirements in high volume production environment</li>
+							<li class="bullet">Rapid prototyping helped win key contracts with the likes of Disney, MasterCard</li>
+							<li class="bullet">Introduced &amp; advanced test-driven development methodology for front-end stack</li>
+							<li class="bullet">Trained and mentored other developers on front-end best practices</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Xoom, Inc.</span>
+							<span class="date">
+								2010-01-01 — 2010-09-01
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="http://xoom.com">http://xoom.com</a>
+						</div>
+						<div class="position">
+							Web Developer
+						</div>
+						<div class="summary">
+							<p>International money remittance helping families in the US send money back home overseas</p>
+						</div>
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li class="bullet">Championed the company&#x27;s first ever user research study</li>
+							<li class="bullet">Internal advocate for improved mobile experience</li>
+							<li class="bullet">Reduced remittance flow with addition of AJAX to replace full-page reload</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Logitech, Inc.</span>
+							<span class="date">
+								2007-07-01 — 2010-01-01
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="http://logitech.com">http://logitech.com</a>
+						</div>
+						<div class="position">
+							Software Applications Engineer
+						</div>
+						<div class="summary">
+							<p>Network music player &quot;squeezebox&quot; streams all the music you love to any room in your home</p>
+						</div>
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li class="bullet">Improved e-commerce conversion 200X with A/B test of unique avatar site guide</li>
+							<li class="bullet">Improved user experience with unified CMS to allow management of on-device and web app content from single solution</li>
+							<li class="bullet">Overhauled user experience of web-based device management portal mysqueezebox.com</li>
+							<li class="bullet">Reduced ops overhead by deploying improved ecommerce platform with improved logistics integration</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Benchmark Media Systems, Inc.</span>
+							<span class="date">
+								2004-12-01 — 2007-07-01
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="http://benchmarkmedia.com">http://benchmarkmedia.com</a>
+						</div>
+						<div class="position">
+							Software Engineer
+						</div>
+						<div class="summary">
+							<p>High-end professional audio and audiophile electronics</p>
+						</div>
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li class="bullet">Helped increase inventory turns 4X with inventory management software</li>
+							<li class="bullet">Decreased production build time by 400% with network-connected handheld barcode scanner MRP app</li>
+							<li class="bullet">Improved visibility on key metrics with reporting tools</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="volunteer" class="row">
+			<aside class="col-sm-3">
+				<h3>Volunteer</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Spark Program</span>
+							<span class="date">
+								2013-03-01 — 2014-11-15
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="http://www.sparkprogram.org/">http://www.sparkprogram.org/</a>
+						</div>
+						<div class="position">
+							Volunteer Mentor
+						</div>
+						<div class="summary">
+							<p>Spark is a national nonprofit that provides life-changing apprenticeships to youth from disadvantaged communities. Spark one-on-one workplace apprenticeships empower young people to succeed in their education and beyond. Spark’s
+								one-on-one workplace apprenticeships empower young people to succeed in their education and beyond.
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>CareerDean</span>
+							<span class="date">
+								2014-10-01 — 2015-11-01
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="http://www.careerdean.com">http://www.careerdean.com</a>
+						</div>
+						<div class="position">
+							Career Mentor
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="education" class="row">
+			<aside class="col-sm-3">
+				<h3>Education</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>George Mason University</span>
+							<span class="date">
+								2013-01-08 — 2013-03-18
+							</span>
+						</h4>
+						<div class="area">
+							Essentials of Economics
+						</div>
+						<div class="studyType">
+							Certificate of Completion
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>ITT Technical Institute</span>
+							<span class="date">
+								2003-10-01 — 2005-10-24
+							</span>
+						</h4>
+						<div class="area">
+							Software Applications Programming
+						</div>
+						<div class="studyType">
+							Associate of Occupational Specialty
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section id="skills" class="row">
+			<aside class="col-sm-3">
+				<h3>Skills</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Software Engineering</h4>
+						</div>
+						<ul class="keywords">
+							<li>Node</li>
+							<li>Typescript</li>
+							<li>REST APIs</li>
+							<li>web services</li>
+							<li>micro services</li>
+							<li>modular design</li>
+							<li>PHP</li>
+							<li>SOA</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Web Development</h4>
+						</div>
+						<ul class="keywords">
+							<li>Javascript</li>
+							<li>Ngx / Angular</li>
+							<li>React.js</li>
+							<li>Bootstrap</li>
+							<li>Sass</li>
+							<li>CSS</li>
+							<li>LESS</li>
+							<li>HTML5</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Database</h4>
+						</div>
+						<ul class="keywords">
+							<li>MySQL</li>
+							<li>Postgres</li>
+							<li>Mongo</li>
+							<li>Redis</li>
+							<li>Elastic Search</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Dev Ops</h4>
+						</div>
+						<ul class="keywords">
+							<li>Firebase</li>
+							<li>Heroku</li>
+							<li>Algolia</li>
+							<li>AWS</li>
+							<li>Ansible</li>
+							<li>Haproxy</li>
+							<li>Nginx</li>
+							<li>Apache</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>UX/UI Design</h4>
+						</div>
+						<ul class="keywords">
+							<li>wireframe</li>
+							<li>prototype</li>
+							<li>user research</li>
+							<li>UX</li>
+							<li>UI</li>
+							<li>IA</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Management</h4>
+						</div>
+						<ul class="keywords">
+							<li>lean startup</li>
+							<li>agile</li>
+							<li>kanban</li>
+							<li>SCRUM</li>
+							<li>SDLC</li>
+							<li>PM</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Business Development</h4>
+						</div>
+						<ul class="keywords">
+							<li>relationship management</li>
+							<li>contract due diligence</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="languages" class="row">
+			<aside class="col-sm-3">
+				<h3>Languages</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>English</strong>
+						</div>
+						<div class="fluency">
+							Native Speaker
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>Indonesian</strong>
+						</div>
+						<div class="fluency">
+							Advanced
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>French</strong>
+						</div>
+						<div class="fluency">
+							Intermediate
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>Farsi</strong>
+						</div>
+						<div class="fluency">
+							Intermediate
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>Arabic</strong>
+						</div>
+						<div class="fluency">
+							Basic
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>Spanish</strong>
+						</div>
+						<div class="fluency">
+							Basic
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>German</strong>
+						</div>
+						<div class="fluency">
+							Basic
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>Danish</strong>
+						</div>
+						<div class="fluency">
+							Basic
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>Turkish</strong>
+						</div>
+						<div class="fluency">
+							Basic
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="interests" class="row">
+			<aside class="col-sm-3">
+				<h3>Interests</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>socially responsible finance</h4>
+						</div>
+						<ul class="keywords">
+							<li>financial tech</li>
+							<li>financial inclusion</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Islamic finance</h4>
+						</div>
+						<ul class="keywords">
+							<li>shariah</li>
+							<li>halal economy</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>blockchain</h4>
+						</div>
+						<ul class="keywords">
+							<li>bitcoin</li>
+							<li>cryptocurrency</li>
+							<li>ethereum</li>
+							<li>smart contracts</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>poverty alleviation</h4>
+						</div>
+						<ul class="keywords">
+							<li>social uplift</li>
+							<li>entrepreneurship</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="references" class="row">
+			<aside class="col-sm-3">
+				<h3>References</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<blockquote class="reference">
+							<p>Matthew is a rockstar with many different talents - when he says he can do engineering, product and UX, he is right on target! We were lucky to have Matthew guide Taro engineering while we took an MVP and built it into a real
+								product. Matthew is great at getting things done, but he is also great at setting up processes, ensure quality and compliance as well as building the team out. As a startup, what we really appreciated was that he made himself
+								available at any time of the day or night to fix issues and resolve any problems and took responsibility of the entire infrastructure. I would hire Matthew again in a heartbeat.
+							</p>
+							<p class="name">
+								<strong>— Krishna Mehra, Co-Founder &amp; CEO at Taro, Inc.</strong>
+							</p>
+						</blockquote>
+					</div>
+					<div class="col-sm-12">
+						<blockquote class="reference">
+							<p>Matthew is a rarity among front-end developers. He a unique blend of hard-working, very skilled technically, and also has a sound design sense. He is particularly strong with leading-edge code practice and new UX principles and
+								theory. This makes him an ideal candidate for companies with ambitious plans who iterate quickly on concepts. I think my favorite part about Matthew is his attitude. He is always quick to find ways to make the best design possible,
+								even if it means substantial technical work or learning something new. I have often heard PM&#x27;s and designers say he is &quot;delightful&quot; to work with. I echo those sentiments. His leadership and talents will be a great
+								addition to any team.
+							</p>
+							<p class="name">
+								<strong>— Katie Holden, Product Manager at Boku, Inc.</strong>
+							</p>
+						</blockquote>
+					</div>
+					<div class="col-sm-12">
+						<blockquote class="reference">
+							<p>Matthew is a talented front-end engineer. While technical, he&#x27;s also very much customer focused. He&#x27;s a strong proponent of clean, tested code at all tiers. In these exciting times in front-end engineering, Matthew is
+								always on top of the latest and greatest technologies. You know... the kinds that improve product quality, increase developer productivity, and speed up delivery. On top of all this, Matthew has a positive and optimistic attitude, an
+								entrepreneurial sprit, and is just a great guy to work with.
+							</p>
+							<p class="name">
+								<strong>— Jimmie Fulton, Principle Software Engineer at Boku, Inc.</strong>
+							</p>
+						</blockquote>
+					</div>
+					<div class="col-sm-12">
+						<blockquote class="reference">
+							<p>I hired Matthew while at Xoom and would hire him again in a heartbeat: he is solid technically, is both able to &quot;up level&quot; and communicate clearly with executives and build a solid report with highly back-end engineers to
+								get the details of an implementation finalized. He is also very much eager to share his findings and evangelize the &quot;right way&quot; to get things done across an organization, while keeping in mind project timelines and overall
+								business goals. Last but not least, Matthew has a great sense of humor and is fun to work with. Anyone would be lucky to have Matthew in their organization!
+							</p>
+							<p class="name">
+								<strong>— Frederic Billou, Director of Product at Xoom, Inc.</strong>
+							</p>
+						</blockquote>
+					</div>
+					<div class="col-sm-12">
+						<blockquote class="reference">
+							<p>Matthew not only gets things done, but will think about how they can be done better. One of the pleasures of working with Matthew is that he has an contagious enthusiasm for improving the product, the team, and the process. And
+								he&#x27;ll make sure everyone is on-board and excited about it too. Matthew is effective and a pleasure to work with.
+							</p>
+							<p class="name">
+								<strong>— Anne Stern, QA Manager at Xoom, Inc.</strong>
+							</p>
+						</blockquote>
+					</div>
+					<div class="col-sm-12">
+						<blockquote class="reference">
+							<p>Matthew&#x27;s understanding of user-centered design, usability, user research, and product management make him a great person to work with. He is strong-willed and will fight hard for a solution that best serves the user. If a UI
+								Designer is a champion for the user, then Matthew is a champion for designers. It was invaluable to have someone on the development side who can see the whole picture. I would highly recommend Matthew for leadership positions in the
+								future.
+							</p>
+							<p class="name">
+								<strong>— Brian Dils, Sr. UX Designer at Logitech, Inc.</strong>
+							</p>
+						</blockquote>
+					</div>
+					<div class="col-sm-12">
+						<blockquote class="reference">
+							<p>Matthew is one of the most enthusiastic and capable people I have ever met. He created and supported many of the tools that allowed me to do my job. His tremendous amount of technical knowledge along with his ability to effectively
+								create unique solutions and communicate along many different groups makes him a huge asset to any team.
+							</p>
+							<p class="name">
+								<strong>— Matthew Parry, Sales Manager at Logitech, Inc.</strong>
+							</p>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="profiles" class="row">
+			<aside class="col-sm-3">
+				<h3>Profiles</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<strong class="network">
+							LinkedIn
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://linkedin.com/in/matthewjosephmartin">matthewjosephmartin</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							Twitter
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="http://twitter.com/ohbytheway">ohbytheway</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							Github
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://github.com/matmar10">matmar10</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							Instagram
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://instagram.com/matmar10/">matmar10</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							Facebook
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://www.facebook.com/matmar10">matmar10</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							Medium
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://medium.com/@ohbytheway">ohbytheway</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							AngelList
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://angel.co/matmar10">matmar10</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							Google Plus
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://plus.google.com/u/0/+MatthewMartinJoseph/about">MatthewMartinJoseph</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							YouTube
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://www.youtube.com/user/matthewmar10">matthewmar10</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							SlideShare
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://www.slideshare.net/MatthewJosephMartin">MatthewJosephMartin</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							Yelp
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="http://matmar10.yelp.com/">matmar10</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+</body>
+
+</html>
