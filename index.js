@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
 const publicDir = path.join(__dirname, 'public');
-const indexFile = path.join(publicDir, 'resume-flat.html');
+const indexFile = path.join(publicDir, 'resume.html');
 
 app.use(express.static(publicDir));
 app.get('/', (req, res) => res.sendFile(indexFile));
